@@ -370,7 +370,7 @@ def main():
             quit_button_text = font.render("Quit    |", True, BUTTON_TEXT_COLOR)
             play_again_button_text = font.render("Play Again", True, BUTTON_TEXT_COLOR)
             screen.blit(quit_button_text, (WIDTH - 275, HEIGHT - 40))
-            # screen.blit(play_again_button_text, (WIDTH - 150, HEIGHT - 40))
+            screen.blit(play_again_button_text, (WIDTH - 150, HEIGHT - 40))
 
         # Update the display
         pygame.display.flip()
